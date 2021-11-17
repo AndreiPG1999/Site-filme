@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>TOP FILME</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <button onclick="topFunction()" id="scrollTop">
+            <i class="arrow up"></i>
+        </button>
+        <button onclick="downFunction()" id="scrollDown">
+            <i class="arrow down"></i>
+        </button>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">TOP FILME</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fa fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><input id="srctext" type="text" placeholder="Search"></li>
+                        <li><button id="btnsrc" class="srcbtn" type="submit" data-bs-toggle="modal" data-bs-target="#portfolioModal5"><i class="fa fa-search"></i></button></li>
+                        <li class="nav-item"><a class="nav-link" href="#page-top">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Filme</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#poze">Poze</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase p-3 mb-4">FILME PENTRU TOȚI</h1>
+                <h1 class="masthead-subheading text-white p-5 ">Cele mai vizionate filme ale anului 2021</h1>
+                <h1 class="nav-item mx-0 mx-lg-1"><a class="nav-about-home py-3 px-0 px-lg-3 rounded" href="#about">About us</a></h1>
+                <!-- Masthead Subheading-->
+            </div>
+        </header>
+        <!-- Movies Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Filme</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Movie 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/movies/thegreenknight.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Movie 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/movies/suicidesquad.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Movie 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/movies/cruella.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Movie 4-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/movies/no_time_to_die.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Movie 5-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/movies/dune.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Movie 6-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/movies/venom.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Movie 7-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/movies/shang_chi.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Movie 8-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal8">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/movies/black_widow.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Movie 9-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal9">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/movies/the_last_duel.jpg" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Photo Section-->
+        <section class="page-section poze" id="poze">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Poze</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Slideshow container -->
+                <!-- Container for the image gallery -->
+                <div class="carousel">
+
+                    <!-- Full-width images with number text -->
+                    <div class="mySlides">
+                        <img src="assets/img/movies/dune_carousel.jpg" style="width:100%;height: 650px;" onclick="onClick(this)">
+                        <div class="carousel-caption">
+                            <p id="caption">Dune</p>
+                        </div>
+                    </div>
+                
+                    <div class="mySlides">
+                        <img src="assets/img/movies/black_widow_carousel.jpg" style="width:100%;height: 650px;" onclick="onClick(this)">
+                        <div class="carousel-caption">
+                            <p id="caption">Black Widow</p>
+                        </div>
+                    </div>
+                
+                    <div class="mySlides">
+                        <img src="assets/img/movies/nttd_carousel.jpg" style="width:100%;height: 650px;" onclick="onClick(this)">
+                        <div class="carousel-caption">
+                            <p id="caption">No Time To Die</p>
+                        </div>
+                    </div>
+                
+                    <div class="mySlides">
+                        <img src="assets/img/movies/thegreenknight_carousel.jpg" style="width:100%;height: 650px;" onclick="onClick(this)">
+                        <div class="carousel-caption">
+                            <p id="caption">The Green Knight</p>
+                        </div>
+                    </div>
+                    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                        <div class="w3-modal-content w3-animate-zoom">
+                          <img id="img01" style="width:100%">
+                        </div>
+                      </div>
+                
+                    <!-- Next and previous buttons -->
+                    <a class="carousel-control-prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="carousel-control-next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section-img bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">About us</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-6 ms-auto"><p class="lead">"Filme pentru toți" este un site în care puteți vedea un top personal al filmelor apărute în anul 2021. Acesta a fost creat cu scopul de a da o mână de ajutor iubitorilor de filme pentru a le fi mai ușor să găsească un film potrivit preferințelor acestora. </p></div>
+                    <div class="col-lg-6 me-auto"><p class="lead">Prin intermediul acestui site, vă veți putea delecta cu o serie de caracteristici care vă vor sări în ajutor când nu găsiți un film de vizionat, cum ar fi urmărirea trailerului sau o descriere scurtă fiecărui film, pentru a fi sigur de alegerea făcută.
+                    </p></div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Us</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Form-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Full name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Message sent successfully!</div>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button-->
+                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Social Icons-->
+                    <div class="mb-5 mb-lg-0">
+                        <h4 class="text-uppercase text-center mb-4">Pagini Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/AndreiP.Gabriel"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/popescu-andrei-gabriel-a94133210/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">The Green Knight</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <iframe class="mb-2" width="100%" height="400" allow="fullscreen" src="https://www.youtube.com/embed/sS6ksY8xWCY"></iframe>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="portfolio-modal-description text-secondary text-uppercase">DESCRIERE</p>
+                                    <p class="mb-5">Un film de fantezie și aventură bazat pe o legendă Arthuriană, "The Green Knight" spune povestea lui Sir Gawain, nepotul necruțător al Regelui Arthur, care pornește într-o misiune de a-l confrunta pe Green Knight, un străin gigantic cu piele de smarald.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Suicide Squad 2</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <iframe width="100%" height="400" allow="fullscreen" src="https://www.youtube.com/embed/eg5ciqQzmK0"></iframe>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="portfolio-modal-description text-secondary text-uppercase">DESCRIERE</p>
+                                    <p class="mb-5">În schimbul unor sentințe scăzute, un nou grup de meta-oameni încheie un acord cu Amanda Waller, șefa Task Force X. De această dată, banda formată din: Harley Quinn, BloodSport, PeaceMaker, King Shark, Polka-Dot Man și Ratcatcher 2 se aventurează în periculoasa insulă din America de Sud: Corto Maltese pentru a găsi Gânditorul, omul de știință malefic care se ocupă de misteriosul Proiect Starfish.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Cruella</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <iframe width="100%" height="400" allow="fullscreen" src="https://www.youtube.com/embed/gmRKv7n2If8"></iframe>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="portfolio-modal-description text-secondary text-uppercase">DESCRIERE</p>
+                                    <p class="mb-5">Înainte să devină Cruella de Vil, adolescenta Estella are un vis. Își dorește să devină un designer de modă, deoarece are talent, inovație și ambiție, toate în aceeași măsură. Dar viața pare că intenționează ca visurile ei să nu se îndeplinească. Ajungând la 12 ani în Londra fără bani și orfană, după 10 ani Estella se dezlănțuie pe străzile orașului cu cei mai buni prieteni și parteneri de crime, Horace și Jasper. </p>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">No Time To Die</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <iframe width="100%" height="400" allow="fullscreen" src="https://www.youtube.com/embed/BIhNsAtPbPI"></iframe>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="portfolio-modal-description text-secondary text-uppercase">DESCRIERE</p>
+                                    <p class="mb-5">Bond a părăsit serviciile secrete și se bucură de o viață liniștită în Jamaica. Pacea sa este întreruptă cand vechiul său prieten Felix Leiter de la CIA se întoarce, cerând ajutor. Misiunea de salvare a unui om de știință răpit se dovedește a fi mult mai periculoasă decât era de așteptat, ducându-l pe Bond pe urmele unui răufăcător misterios, înarmat cu o nouă tehnologie periculoasă.</p>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Dune</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <iframe width="100%" height="400" allow="fullscreen" src="https://www.youtube.com/embed/8g18jFHCLXk"></iframe>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="portfolio-modal-description text-secondary text-uppercase">DESCRIERE</p>
+                                    <p class="mb-5">Dune spune povestea lui Paul Atreides, un tânăr briliant născut într-un destin măreț pe care nu-l putea înțelege. Acesta trebuie să călătorească până la cea mai periculoasă planetă din univers pentru a asigura viitorul familiei și poporului său.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Venom: Let There Be Carnage</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <iframe width="100%" height="400" allow="fullscreen" src="https://www.youtube.com/embed/-FmWuCgJmxo"></iframe>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="portfolio-modal-description text-secondary text-uppercase">DESCRIERE</p>
+                                    <p class="mb-5">Eddie Brock se chinuie să se obișnuiască cu noua sa viață, ca și gazdă a extraterestrului simbiot Venom, care îi oferă abilități supra-omenești pentru a fi un erou letal. Brock încearcă să-și reaprindă cariera, intervievându-l pe criminalul în serie, Cletus Kasady, care devine gazda simbiotului Carnage și evadează din închisoare dupa o execuție eșuată.</p>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 7-->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Shang Chi: The Legend Of The Ten Rings</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <iframe width="100%" height="400" allow="fullscreen" src="https://www.youtube.com/embed/8YjFbMbfXaQ"></iframe>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="portfolio-modal-description text-secondary text-uppercase">DESCRIERE</p>
+                                    <p class="mb-5">Shang-Chi, maestrul Kung-fu bazat pe arme, este forțat să se confrunte cu trecutul său după ce a fost atras în Organizația celor Zece Inele.</p>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 8-->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" aria-labelledby="portfolioModal8" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Black Widow</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <iframe width="100%" height="400" allow="fullscreen" src="https://www.youtube.com/embed/Fp9pNPdNwjI"></iframe>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="portfolio-modal-description text-secondary text-uppercase">DESCRIERE</p>
+                                    <p class="mb-5">În thriller-ul de spionaj Marvel Black Widow, Natasha Romanoff, supranumită și Black Widow se confruntă cu părțile sale rele când o conspirație periculoasă legată de trecutul ei apare. Urmărită de o forță care nu se va opri până nu o va doborî, Natasha trebuie să se ocupe de trecutul ei ca spion și relațiile distruse lăsate în urmă, cu mult timp înainte să devina un Avenger.</p>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 9-->
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" aria-labelledby="portfolioModal9" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">The Last Duel</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <iframe width="100%" height="400" allow="fullscreen" src="https://www.youtube.com/embed/mgygUwPJvYk"></iframe>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="portfolio-modal-description text-secondary text-uppercase">DESCRIERE</p>
+                                    <p class="mb-5">Spus din trei puncte de vedere: al soțului, al violatorului și al soției, este un film cu foarte multe bătăi medievale, cu Jodie Comer, Matt Damon și Adam Driver ca și actori principali.</p>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
